@@ -1,0 +1,41 @@
+.places-div{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.farm, .cave, .house, .casino{
+	padding-top: 12px;
+  	padding-bottom: 25px;
+  	padding-right: 30px;
+  	padding-left: 30px;
+}
+
+.farm{
+	border: 1px solid orange;
+	color: orange;
+}
+
+.cave{
+	border: 1px solid lightblue;
+	color: lightblue;
+}
+
+.casino{
+	border: 1px solid red;
+	color: red;
+}
+
+.house{
+	border: 1px solid green;
+	color: green;
+}
+
+.btn{
+	background-color: white;
+	border: 2px solid orange;
+	border-radius: 5px;
+	color: orange;
+}
